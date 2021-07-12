@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using DG.Tweening;
 
-public class Mace : MonoBehaviour
+public class FloatingPlatform : MonoBehaviour
 {
     [SerializeField] private Transform[] _pathsPoints = new Transform[4];
     [SerializeField] private float _duration;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Chest : MonoBehaviour
+public class ChestAnimationChanger : MonoBehaviour
 {
     private Animator _animator;
 
