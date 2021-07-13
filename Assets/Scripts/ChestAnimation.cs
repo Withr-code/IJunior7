@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 
-public class ChestAnimationChanger : MonoBehaviour
+[RequireComponent(typeof(Animator))]
+
+public class ChestAnimation : MonoBehaviour
 {
     private Animator _animator;
 

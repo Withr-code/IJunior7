@@ -3,7 +3,7 @@
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 
-public class PlayerAnimationChanger : MonoBehaviour
+public class PlayerAnimation : MonoBehaviour
 {
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
